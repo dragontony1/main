@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title>Welcome!</title>
+  <title>dragontony1 HTML Website</title>
   <style>
     /*---------------------------------
     Basic Style Sheet UNDER DEVELOPMENT
@@ -12,21 +12,58 @@
     website: dragontony1.github.io/main/
     ---------------------------------*/
     body {
-      font-family: Verdana, Sans-serif;
+      font-family: Arial, Sans-serif;
+      margin: 0;
+    }
+    h1 {
+      font-size: 1.8em;
+    }
+    h2 {
+      font-size: 1.3em;
+      font-style: italic;
+    }
+    #grid {
+      display: grid;
+      grid-template-columns: 170px 1fr;
+    }
+    #contents {
+      border-right: 1px solid black;
+      padding: 10px;
+      margin-top: 0;
+    }
+    #text {
+      padding: 20px;
+      padding-top: 0;
+    }
+    .contents-title {
+      font-size: 1.5em;
+      text-align: center;
     }
   </style>
 </head>
 <body>
-  <img src="main-page-top.png" width="100%">
-  <h1>Welcome to dragontony1 HTML website!</h1>
-  <h2>What is this website?</h2>
-  <p>
-    This webdsite would be dedicated to many things, ranging from academic things like:<br>
-    -linguistics<br>
-    -a little bit of computer programming<br>
-    ...to personal things and thoughts from my daily life.
-  </p>
-  <h2>Who are you?</h2>
-    Hello, I am a
+  <div id="top-pic">
+    <img src="main-page-top.png" width="100%">
+  </div>
+  <div id="grid">
+    <div id="contents">
+      <div class="contents-title">Contents</div><br>
+      Daily life<br>
+      Linguistics<br>
+      Languages<br>
+    </div>
+    <div id="text">
+      <h1>Welcome to dragontony1 HTML website!</h1>
+      <h2>What is this website?</h2>
+      <p>
+        This webdsite would be dedicated to many things, ranging from academic things like:<br>
+        -linguistics<br>
+        -a little bit of computer programming<br>
+        ...to personal things and thoughts from my daily life.
+      </p>
+      <h2>Who are you?</h2>
+        Hello, I am a
+    </div>
+  </div>
 </body>
 <html>
